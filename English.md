@@ -1,14 +1,14 @@
 # Lumines Arise Burst mechanics introduction
 ## Charging
-Above the timeline, there's a number representing the charging progress. At 50%, the number changes color, indicating you can enter Burst. At 100%, a powerful audio and visual effect plays, and the number changes to "MAX", indicating you can enter Burst mode with the maximum number of scan rounds.
+Above the timeline, there's a number representing the charging progress. At 50%, the number changes color, indicating you can enter Burst. At 100%, a powerful audio and visual effect plays, and the number changes to "MAX", indicating you can enter Burst mode with the maximum number of sweep rounds.
 
 Charging progress is proportional to the number of 2x2 squares you've formed (without waiting for the timeline to clear). Once you've formed 70 2x2 squares, it's fully charged.
 ## Enter Burst, sweep rounds of Burst 
 **Notice that: If you hear the level complete SFX in Journey Mode, you won't be able to enter a Burst in that level even if you have enough progress.**
 
-A half Burst has a sweep count of 3, and a full Burst has a scan count of 5, **shown above the timeline**.
+A half Burst has a sweep count of 3, and a full Burst has a sweep count of 5, **shown above the timeline**.
 
-Entering a Burst near the end of a scan line will grant you an extra scan count to prevent you from missing a sweep round by starting the Burst too late. This margin is approximately 4 columns for a full Burst, and 2 columns for a half Burst.
+Entering a Burst near the end of a timeline will grant you an extra sweep count to prevent you from missing a sweep round by starting the Burst too late. This margin is approximately 4 columns for a full Burst, and 2 columns for a half Burst.
 
 If you start a Burst approximately halfway through the last column, a full Burst will likely become 7 rounds, effectively resulting in a 6-round Burst. The exact reason for this is unknown.
 A half Burst can be played in the same way, which you can get a 4-round Burst, but it's almost impossible.
@@ -60,7 +60,7 @@ The launched opposite-colored squares are displayed above the corresponding colu
 ## The end of Burst
 When the sweep count reaches zero, the Burst Heap will be erased. While the Burst Heap is being erased, you can still expand it, but you cannot increase the Burst count by erasing squares not in the Burst Heap.
 
-When the Burst Heap is completely erased, all flew-up cells will fall. **In Journey Mode, squares erased in the next scan after a Burst ends do not count towards level progress.**
+When the Burst Heap is completely erased, all flew-up cells will fall. **In Journey Mode, squares erased in the next sweep after a Burst ends do not count towards level progress.**
 ## Scoring
 Each Burst count of a half Burst counts as 50 points, and each Burst count of a full Burst counts as 100 points.
 ## Combo Score Multiplier
