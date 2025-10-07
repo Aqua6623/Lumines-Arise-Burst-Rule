@@ -14,6 +14,8 @@ If you start a Burst approximately halfway through the last column, a full Burst
 A half Burst can be played in the same way, which you can get a 4-round Burst, but it's almost impossible.
 
 It seems that a full Burst of 6 or even 7 rounds is more common in Burst Battle.
+
+**You won't die during Burst, but if you topped out, the sweep count will immediately dropped to 1.**
 ## Burst Color Selection
 When entering Burst, the largest match on the board is selected as the **Burst Heap**. In the official tutorial, both the Burst mechanism itself and the huge match created during the Burst are all called "Burst". Here, the **Burst Heap** is used to refer to the latter for easier distinction.
 
