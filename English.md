@@ -27,7 +27,7 @@ The other part, which is the focus of this section, is **how the Burst Heap is c
 
 The game counts **squares of 2×2 or larger** in the Burst Heap, and the total is the Burst Heap count. For example, if the Burst Heap is a 4×4 square, it contains 1 4×4 square, 4 3×3 squares, and 9 2×2 squares, for a total of (1+4+9=14).
 
-![](pic/BurstHeapCalculation.png)
+![](pic/burstHeapCalculation.png)
 
 The sum of the two parts is the Burst count, which is shown on the largest square of the Burst Heap.
 
