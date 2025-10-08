@@ -55,8 +55,11 @@ Burst Heap Size|Cells|Burst count
 A 16×10 Burst Heap fills the whole field, which means 555 is a "soft cap" of Burst.
 ## Opposite-color cell Fly up
 During Burst, opposite-color cell will fly up when certain conditions are met:
-* The largest square in the Burst Heap becomes larger (starting from zero, or existing square when the Burst begins are also count): All surrounding opposite-color cells will **fly up**. If the opposite-color cells are within a 2×2 or larger square, **all cells within that square will fly up**, **but only counted as one cell**.
+* The largest square in the Burst Heap becomes larger (starting from zero, or existing square when the Burst begins are also count): All surrounding opposite-color cells will **fly up**.
 * When the Burst count reaches a certain threshold: A random opposite-color cell surrounding the largest square will fly up. The thresholds are 10, 20, 30, 40, 50, 70, 90, 110, 130, and so on. In other words, the first five random fly-ups require a Burst count increase of 10, and subsequent fly-ups require a Burst count increase of 20.
+
+If a opposite-color cell to fly up is within a 2×2 or larger square, **all cells within that square will fly up**, **but only counted as one cell**.
+
 Flew-up opposite-colored cells are displayed above the corresponding column, but only a maximum of three are displayed.
 ![](pic/screenshot/cellsFlyUp.png)
 ## The end of Burst
